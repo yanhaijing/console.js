@@ -37,9 +37,9 @@ insert this code before first script, that's it, so easy.
 
 ##Refrence
 
-[MSDN](http://msdn.microsoft.com/en-us/library/ie/gg589530.aspx)
-[MDN](https://developer.mozilla.org/en-US/docs/Web/API/Console)
-[Firebug](http://getfirebug.com/wiki/index.php/Console_API)
+- [MSDN](http://msdn.microsoft.com/en-us/library/ie/gg589530.aspx)
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Console)
+- [Firebug](http://getfirebug.com/wiki/index.php/Console_API)
 
 ##Authors
 
