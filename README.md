@@ -2,11 +2,11 @@
 
 console.js is a small javascript library, fix console is undefined, like html5shim and reset.css.
 
-console is undefined in ie6,ie7, before open devtool console is undefined in ie8, ie9.
+In ie6 ie7,console is undefined. In ie8 ie9, first open the developer tools before, console is undefined.
 
 ##Guides
 
-insert this code before first script, that's it, so easy. 
+Insert the following before the first script code, that's it, so easy. 
 
 	<script src="console.js"></script>
 
