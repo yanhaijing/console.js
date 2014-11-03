@@ -41,6 +41,14 @@ Insert the following before the first script code, that's it, so easy.
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Console)
 - [Firebug](http://getfirebug.com/wiki/index.php/Console_API)
 
+##Related projects
+
+- [browser-shim](https://github.com/ishmaelthedestroyer/browser-shim)
+- [console-shim(liamnewmarch)](https://github.com/liamnewmarch/console-shim)
+- [console-shim(kayahr)](https://github.com/kayahr/console-shim)
+- [console-polyfill](https://github.com/paulmillr/console-polyfill)
+- [consolex.js](https://github.com/deadlyicon/consolex.js/blob/master/src/consolex.js)
+
 ##Authors
 
 **yanhaijing**
