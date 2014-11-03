@@ -34,6 +34,9 @@ Insert the following before the first script code, that's it, so easy.
 - trace
 - warn
 
+##Blog
+
+[use console.js](http://yanhaijing.com/js/2014/11/03/use-console.js/)
 
 ##Refrence
 
