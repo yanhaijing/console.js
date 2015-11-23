@@ -12,8 +12,11 @@
                 if (typeof _console[key] === 'undefined') {
                     return 0;
                 }
-
-                Function.prototype.apply.call(_console[key], _console, arguments);
+                // 添加容错处理
+                try {
+                    Function.prototype.apply.call(_console[key], _console, arguments);
+                } catch (exp) {
+                }
             };           
         }(key);
     }
