@@ -1,3 +1,8 @@
+/*!
+ * console.js v0.2.0 (https://github.com/yanhaijing/console.js)
+ * Copyright 2014 yanhaijing. All Rights Reserved
+ * Licensed under MIT (https://github.com/yanhaijing/console.js/blob/master/MIT-LICENSE.txt)
+ */
 ;(function(g) {
     'use strict';
     var _console = g.console || {};

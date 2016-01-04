@@ -64,10 +64,4 @@ Insert the following before the first script code, that's it, so easy.
 - [report question](https://github.com/yanhaijing/console.js/issues "report question")
 
 ##Copyright and license
-
-Copyright© 2013 yanhaijing. All Rights Reserved
-
-Licensed under the MIT-LICENSE;
-you may not use this work except in compliance with the License.
-You may obtain a copy of the License in the LICENSE file, or at:
-	[http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT)
+[MIT-LICENSE](https://github.com/yanhaijing/console.js/blob/master/MIT-LICENSE.txt)
