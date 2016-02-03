@@ -62,6 +62,3 @@ Insert the following before the first script code, that's it, so easy.
 
 ##Issues
 - [report question](https://github.com/yanhaijing/console.js/issues "report question")
-
-##Copyright and license
-[MIT-LICENSE](https://github.com/yanhaijing/console.js/blob/master/MIT-LICENSE.txt)
