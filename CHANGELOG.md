@@ -3,6 +3,7 @@
 ## 0.3.0 / 2018-3-24
 
 - 添加 polyfill() 独立函数
+- 添加 safeExec()
 - 添加 log()
 - 添加 info()
 - 添加 warn()
