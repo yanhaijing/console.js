@@ -1,6 +1,6 @@
 /*!
  * console.js v0.2.0 (https://github.com/yanhaijing/console.js)
- * Copyright 2013 yanhaijing. All Rights Reserved
+ * Copyright 2013-2018 yanhaijing. All Rights Reserved
  * Licensed under MIT (https://github.com/yanhaijing/console.js/blob/master/MIT-LICENSE.txt)
  */
 ;(function(g) {
