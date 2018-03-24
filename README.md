@@ -1,4 +1,4 @@
-# console.js [![license](http://img.shields.io/npm/l/express.svg)](https://github.com/yanhaijing/console.js/blob/master/MIT-LICENSE.txt)
+# console.js [![license](http://img.shields.io/npm/l/express.svg)](https://github.com/yanhaijing/console.js/blob/master/LICENSE)
 
 console.js is a small javascript library, fix console is undefined, like html5shim and reset.css.
 
