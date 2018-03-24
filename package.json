@@ -1,5 +1,5 @@
 {
-  "name": "console_js",
+  "name": "@yanhaijing/console_js",
   "version": "0.3.0",
   "description": "console.js is a small javascript library, fix console is undefined",
   "main": "dist/index.js",
