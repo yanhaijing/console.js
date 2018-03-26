@@ -4,6 +4,8 @@ A small javascript library, fix console is undefined.
 
 In ie6 ie7, console is undefined. In ie8 ie9, first open the developer tools before, console is undefined.
 
+**note:** compiled code is dependent on ES5 environment, so it is need to include [es5-shim](http://github.com/es-shims/es5-shim/) for ie6-8, and you can view [demo/demo-global.html](../demo/demo-global.html)
+
 ## polyfill
 Fix ie6-9 console.xxx is error
 
