@@ -51,9 +51,6 @@ console.log = function(...args) {
 };
 ```
 
-## safeExec
-
-
 ## log
 Like console.log, but is safe on ie6-9, is useful for library developers
 
@@ -71,3 +68,48 @@ Like console.warn, same as above
 
 ## error
 Like console.error, same as above
+
+## safeExec
+safe exec console.xxx on ie 6-9, `log` `info` internal use of safeExec
+
+```
+safeExec('log', xxx); // console[log](xxx)
+safeExec('assert', xxx); // console[assert](xxx)
+```
+
+## log1
+only support one param, The difference between log and log1, log1 can remove by uglyjs, log can't remove by uglyjs
+
+log internal implementation
+
+```js
+function log(...args) {
+    try {
+        // can't remove by uglyjs
+        return apply.call(console[cmd], console, args);
+    } catch (e) {}
+}
+```
+
+log1 internal implementation
+
+```js
+function log1(msg) {
+    try {
+        // can remove by uglyjs
+        return console.log('log:', msg);
+    } catch(e) {}
+}
+```
+
+demo
+
+```js
+log1('xxxxx');
+```
+
+## warn1
+only support one param, like log1
+
+## error1
+only support one param, like log1

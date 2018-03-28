@@ -44,3 +44,21 @@ export function warn(...args) {
 export function error(...args) {
     return safeExec('error', ...args);
 }
+
+export function log1(msg) {
+    try {
+        return console.log('log:', msg);
+    } catch(e) {}
+}
+
+export function warn1(msg) {
+    try {
+        return console.warn('warn:', msg);
+    } catch(e) {}
+}
+
+export function error1(msg) {
+    try {
+        return console.error('error:', msg);
+    } catch(e) {}
+}
