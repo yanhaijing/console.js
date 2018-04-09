@@ -4,6 +4,8 @@ console.js is a small javascript library, fix console is undefined, like html5sh
 
 In ie6 ie7,console is undefined. In ie8 ie9, first open the developer tools before, console is undefined.
 
+## Migration to https://github.com/jsmini/console
+
 ## Guides
 Download and install through the npm
 
